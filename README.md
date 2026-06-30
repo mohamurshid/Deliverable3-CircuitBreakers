@@ -2,8 +2,7 @@
 
 **Title:** Cloud-Based Environmental & Gas Monitoring System using ESP32, DHT22 and MQ-5
 **Course:** ICS 4111 (Apr–Jul 2026)
-**Date:** *[submission date]*
-**Class section:** *[ICS 4.1A / 4.1B / 4.1C]*
+**Class section:** *ICS 4.1A*
 
 **Members:**
 | Reg No. | Name |
