@@ -2,8 +2,7 @@
 
 **Title:** Cloud-Based Environmental & Gas Monitoring System using ESP32, DHT22 and MQ-5
 **Course:** ICS 4111 (Apr–Jul 2026)
-**Date:** *[submission date]*
-**Class section:** *[ICS 4.1A / 4.1B / 4.1C]*
+**Class section:** *ICS 4.1A*
 
 **Members:**
 | Reg No. | Name |
@@ -169,27 +168,7 @@ from(bucket: "iot_sensors")
 - The InfluxDB SQL/Data Explorer view confirmed rows landing in the `environment_data` measurement with all expected fields (device, gas_raw, gas_voltage, humidity, location, temperature).
 - Gas sensor readings remained near zero throughout testing since Wokwi's simulated gas sensor defaults to a clean-air concentration; this is expected behaviour in simulation, not a fault.
 
----
-
-## 8. Repository Structure
-
-```
-.
-├── README.md            <- this file
-├── sketch.ino            <- ESP32 source code
-├── diagram.json           <- Wokwi wiring diagram
-├── libraries.txt          <- required Arduino libraries
-├── Circuit 3.png          <- wiring/circuit screenshot
-├── Influx DB.png          <- InfluxDB data verification screenshot
-├── Grafana Dashboard.png  <- Grafana dashboard screenshot
-└── groupwork-photo.jpg    <- evidence of groupwork
-```
-
-> ⚠️ **Security note:** real Wi-Fi credentials and InfluxDB tokens are not committed to this repository — `sketch.ino` here uses placeholder values; the live Wokwi project (linked above) holds the working credentials.
-
----
-
-## 9. Evidence of Groupwork
+## 8. Evidence of Groupwork
 
 ![Groupwork photo](groupwork-photo.jpeg)
 
@@ -206,18 +185,17 @@ All group members listed above contributed to this deliverable. Contribution bre
 
 ---
 
-## 10. Links Summary
+## 9. Links Summary
 
 | Item | Link |
 |---|---|
 | Wokwi public simulation | https://wokwi.com/projects/468276398579020801 |
-| GitHub repository | `https://github.com/<your-org>/<repo-name>` |
 | Grafana dashboard | see `Grafana Dashboard.png` |
 | InfluxDB data verification | see `Influx DB.png` |
 
 ---
 
-## 11. References
+## 10. References
 
 - Wokwi Documentation — ESP32 Wi-Fi Networking: https://docs.wokwi.com/guides/esp32-wifi
 - Wokwi Documentation — DHT22: https://docs.wokwi.com/parts/wokwi-dht22
