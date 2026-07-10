@@ -75,6 +75,12 @@ This project was simulated on **Wokwi** (online ESP32 simulator), as permitted b
 | ESP32 `GPIO21` | OLED `SDA` |
 
 ---
+### 3.2 Physical Implementation
+
+The circuit was also built on physical hardware using an ESP32 Dev Module, DHT22, MQ-5 gas sensor, and SSD1306 OLED, wired on a breadboard and programmed via the Arduino IDE. The Serial Monitor confirmed successful gas sensor readings and InfluxDB writes (`Write Successful.`) in real time, with gas raw values around 740–754 and corresponding voltages of ~0.60–0.61 V. The OLED display encountered a hardware fault during testing (see Section 5.2).
+
+![Physical build](Physical-Implementation.jpeg)
+![IDE Output](IDE-Output.jpeg)
 
 ## 4. Firmware (ESP32 Code)
 
