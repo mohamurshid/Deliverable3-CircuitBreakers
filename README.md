@@ -191,7 +191,7 @@ from(bucket: "iot_sensors")
 
 ## 9. Evidence of Groupwork
 
-![Groupwork photo](groupwork-photo.jpg)
+![Groupwork photo](groupwork-photo.jpeg)
 
 All group members listed above contributed to this deliverable. Contribution breakdown:
 
